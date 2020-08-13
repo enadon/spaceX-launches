@@ -1,0 +1,5 @@
+            <div> <p>Images: </p>{launch.links.flickr_images.length !== 0 && (
+                { launch.links.flickr_images.map( 
+                    (img, indx) => {return `<img key=${indx} src=${img[indx]}` />} 
+                ) }
+            )} </div>
